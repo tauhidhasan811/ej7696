@@ -1,8 +1,52 @@
 import os
+from dotenv import load_dotenv
 from fastapi import FastAPI, Form
+from asset.hyperparameters import hyper
 from fastapi.responses import JSONResponse, FileResponse
+from asset.config.gen_model import LoadGenModel
+from asset.core.prompts import GenBookPrompt
 
 app = FastAPI()
+
+load_dotenv()
+
+model = LoadGenModel()
+out_dir = hyper['output_dir']
+os.makedirs(out_dir, exist_ok=True)
+
+@app.post('/api/create-book/')
+async def create_book(ex_name, sheet_content, knowledge_content):
+    prompt = GenBookPrompt(ex_name=ex_name, sheet_content=sheet_content, 
+                           knowledge_content=knowledge_content)
+    
+    try:
+        response = model.invoke(prompt).content
+        
+        serial = len(os.listdir(out_dir))+1
+        path = os.path.join(out_dir, f'response_{serial}.txt')
+        with open(path, 'w') as file:
+            file.write(response)
+        
+        message = JSONResponse(
+            status_code=200,
+            content={
+                'status': True,
+                'status_code': 200,
+                'text': response
+            }
+        )
+        return message
+    
+    except Exception as ex:
+        message = JSONResponse(
+            status_code=500,
+            content={
+                'status': False,
+                'status_code': 500,
+                'text': str(ex)
+            }
+        )
+        return message
 
 @app.post('/api/load_book/')
 def load_book():
