@@ -48,6 +48,37 @@ async def create_book(ex_name, sheet_content, knowledge_content):
         )
         return message
 
+
+@app.get('/api/view-responses/')
+async def gen_question():
+    dirs = [os.path.join(out_dir, p) for p in os.listdir(out_dir)]
+
+    print(dirs)
+    response = []
+    for d in dirs:
+        with open(d, 'r') as f:
+            data = f.read()
+        response.append(data)
+
+
+    message = JSONResponse(
+        status_code=200,
+        content={
+            'status': True,
+            'status_code': 200,
+            'text': response
+        }
+    )
+
+    return message
+
+
+
+
+
+
+
+
 @app.post('/api/load_book/')
 def load_book():
     f_path = r'data\response\response_1.txt'
