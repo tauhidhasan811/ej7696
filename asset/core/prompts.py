@@ -1,7 +1,8 @@
 from langchain_core.prompts import PromptTemplate
+from asset.core.output_format import out_temp
 from langchain.messages import SystemMessage, HumanMessage, AIMessage
 
-def GenBookPrompt(ex_name, sheet_content, knowledge_content):
+"""def GenBookPrompt(ex_name, sheet_content, knowledge_content):
 
     sys_message = SystemMessage(
         content=(
@@ -24,6 +25,43 @@ def GenBookPrompt(ex_name, sheet_content, knowledge_content):
         )
     )
 
+
+    temp = PromptTemplate(
+        template="SYSTEM INSTRUCTIONS:\n{sys_message}\n\n"
+        "USER CONTENT: \n{hum_message}",
+        input_variables=['sys_message', 'hum_message']
+    )
+
+    prompt = temp.invoke(
+        input={
+            'sys_message': sys_message.content,
+            'hum_message': hum_message.content
+        }
+    )
+
+    prompt = prompt.text
+
+    return prompt"""
+
+
+def GenQuestionPrompt(ex_name, sheet_content, knowledge_content, n_question):
+
+    sys_message = SystemMessage(
+        content=(
+        "You are a professional exam preparation question examiner for the American Petroleum Institute (API).\n"
+        f"Your task is to generate {n_question} unique questions based on the provided information.\n\n"
+        f"Follow the specified dictionary output format: {out_temp}.\n\n"
+        )
+    )
+
+
+    hum_message = HumanMessage(
+        content=(
+            f"Exam Name:\n{ex_name}\n\n"
+            f"Effectivity Sheet Content:\n{sheet_content}\n\n"
+            f"Body of Knowledge Content:\n{knowledge_content}\n\n"
+        )
+    )
 
     temp = PromptTemplate(
         template="SYSTEM INSTRUCTIONS:\n{sys_message}\n\n"
