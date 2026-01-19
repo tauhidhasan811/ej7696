@@ -2,4 +2,5 @@ dotenv
 langchain
 langchain-core
 fastapi[standard]
+langchain-openai
 langchain-google-genai
