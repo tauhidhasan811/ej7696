@@ -4,6 +4,7 @@ from fastapi import FastAPI, Form
 from asset.hyperparameters import hyper
 from fastapi.responses import JSONResponse, FileResponse
 from asset.config.gen_model import LoadGenModel
+from asset.config.openai_model import LoadOpenAIModel
 from asset.core.clear_data import CleanData
 from asset.core.prompts import GenQuestionPrompt#, GenBookPrompt
 
@@ -12,6 +13,7 @@ app = FastAPI()
 load_dotenv()
 
 model = LoadGenModel()
+#model = LoadOpenAIModel()
 
 @app.post('/api/gen-question/')
 async def generate_question(ex_name= Form(str), 
