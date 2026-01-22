@@ -1,4 +1,6 @@
 import re
+import ast
+import json
 
 def CleanData(text):
     # Step 1: Remove all literal backslashes
@@ -13,5 +15,7 @@ def CleanData(text):
     # Step 4: Remove newlines and extra spaces
     cleaned = re.sub(r'\s+', ' ', cleaned).strip()
 
-    print(cleaned)
+    #print(cleaned)
+    #cleaned = ast.literal_eval(cleaned)
+    cleaned = json.loads(cleaned)
     return cleaned

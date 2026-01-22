@@ -1,6 +1,6 @@
 from langchain_google_genai.chat_models import ChatGoogleGenerativeAI
 
-def LoadGenModel(model_name='gemini-2.5-flash', temp=1.0):
+def LoadGenModel(model_name='gemini-3-flash-preview', temp=1.0):
     model = ChatGoogleGenerativeAI(
         model=model_name,
         temperature = temp

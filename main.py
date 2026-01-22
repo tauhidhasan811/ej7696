@@ -6,26 +6,95 @@ from fastapi.responses import JSONResponse, FileResponse
 from asset.config.gen_model import LoadGenModel
 from asset.config.openai_model import LoadOpenAIModel
 from asset.core.clear_data import CleanData
-from asset.core.prompts import GenQuestionPrompt#, GenBookPrompt
-
+from asset.core.process_gemi3_response import get_text
+#from asset.core.prompts import GenQuestionPrompt#, GenBookPrompt
+from asset.service.check_question import CheckQuestionCount
+from asset.service.get_model_response import GetModelResponse
+from asset.service.merge_data import MergeData
 app = FastAPI()
+
+
 
 load_dotenv()
 
-model = LoadGenModel()
+#model = LoadGenModel()
+#print("Initial Model Name:", model.model)
+
 #model = LoadOpenAIModel()
+@app.post('/api/config-model/')
+async def config_model(model_name = Form(), temp: float =Form(0.7)):
+    global model 
+    try:
+        if 'gemini' in model_name.lower():
+            model = LoadGenModel(model_name=model_name, temp=temp)
+            text = f'Model configured to {model.model} with temperature {model.temperature}'
+        else:
+            model = LoadOpenAIModel()
+            text = f'Model configured to {model.model_name} with temperature {model.temperature}'
+        
+        message = JSONResponse(
+            status_code=200,
+            content={
+                'status': True,
+                'status_code': 200,
+                'text': text
+            }
+        )
+        return message
+    except Exception as ex:
+        message = JSONResponse(
+            status_code=500,
+            content={
+                'status': False,
+                'status_code': 500,
+                'text': str(ex)
+            }
+        )
+        return message
+    
 
 @app.post('/api/gen-question/')
-async def generate_question(ex_name= Form(str), 
-                            sheet_content=Form(str), 
-                            knowledge_content=Form(str), 
-                            n_question=Form(int)):
+async def generate_question(ex_name= Form(), 
+                            sheet_content=Form(), 
+                            knowledge_content=Form(), 
+                            n_question: int =Form()):
     try:
-        prompt = GenQuestionPrompt(ex_name=ex_name, sheet_content=sheet_content, 
-                            knowledge_content=knowledge_content, n_question=n_question)
+        #prompt = GenQuestionPrompt(ex_name=ex_name, sheet_content=sheet_content, knowledge_content=knowledge_content, n_question=n_question)
         
-        response = model.invoke(prompt).content
+        #response = model.invoke(prompt).content
+        #print(response)
+        #if type(response) != list:
+            #response = CleanData(response)
+        text = GetModelResponse(model=model, ex_name=ex_name,
+                                    sheet_content=sheet_content,
+                                   knowledge_content=knowledge_content,
+                                   n_question=n_question)
+        
+
+        count, response = CheckQuestionCount(response=text, n_question=n_question)
+
+        if count != 0:
+            new_data = GetModelResponse(model=model, ex_name=ex_name,
+                                        sheet_content=sheet_content,
+                                        knowledge_content=knowledge_content,
+                                        n_question=count)
+            
+            response = MergeData(previous=text, new=new_data)
+
+        print('=' * 80)
+        print("Current Model Name in API:", model.model)
+        print('=' * 80)
+        """if model.model.startswith('gemini-3'):
+            response = get_text(response)
+        
         response = CleanData(response)
+        """
+        print(response)
+
+
+        print('x' * 120)
+        print("Number of question generated:", len(response))
+        print('x' * 120)
 
         message = JSONResponse(
             status_code=200,
