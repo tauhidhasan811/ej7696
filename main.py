@@ -17,8 +17,10 @@ app = FastAPI()
 
 load_dotenv()
 
-#model = LoadGenModel()
-#print("Initial Model Name:", model.model)
+model = LoadGenModel()
+print('=' * 80)
+print("Initial Model Name:", model.model)
+print('=' * 80)
 
 #model = LoadOpenAIModel()
 @app.post('/api/config-model/')
@@ -28,8 +30,8 @@ async def config_model(model_name = Form(), temp: float =Form(0.7)):
         if 'gemini' in model_name.lower():
             model = LoadGenModel(model_name=model_name, temp=temp)
             text = f'Model configured to {model.model} with temperature {model.temperature}'
-        else:
-            model = LoadOpenAIModel()
+        elif 'gpt' in model_name.lower() or 'openai' in model_name.lower():
+            model = LoadOpenAIModel(model_name=model_name, temp=temp)
             text = f'Model configured to {model.model_name} with temperature {model.temperature}'
         
         message = JSONResponse(

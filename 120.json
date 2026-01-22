@@ -1,0 +1,2998 @@
+{
+  "status": true,
+  "status_code": 200,
+  "text": [
+    {
+      "question": "According to API 510, who is responsible for the overall maintenance, inspection, and repair of pressure vessels?",
+      "options": [
+        {
+          "option": "The Authorized Pressure Vessel Inspector",
+          "is_correct": false
+        },
+        {
+          "option": "The Repair Organization",
+          "is_correct": false
+        },
+        {
+          "option": "The Owner-User",
+          "is_correct": true
+        },
+        {
+          "option": "The Jurisdiction",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510, Section 4.2.1 states the owner-user has the responsibility for the inspection, maintenance, and repair of the pressure vessel."
+    },
+    {
+      "question": "A pressure vessel has a remaining corrosion allowance of 0.125 inches and a corrosion rate of 0.010 inches per year. What is the maximum allowed interval for the next internal inspection?",
+      "options": [
+        {
+          "option": "12.5 years",
+          "is_correct": false
+        },
+        {
+          "option": "6.25 years",
+          "is_correct": true
+        },
+        {
+          "option": "10 years",
+          "is_correct": false
+        },
+        {
+          "option": "5 years",
+          "is_correct": false
+        }
+      ],
+      "explanation": "Remaining Life = Allowance / Rate = 0.125 / 0.010 = 12.5 years. API 510 Section 6.4.1.1 states the interval shall not exceed 10 years or half the remaining life, whichever is less. Half-life is 6.25 years."
+    },
+    {
+      "question": "Under API 510, which of the following is considered an 'Alteration'?",
+      "options": [
+        {
+          "option": "Replacing a nozzle with one of the same size and rating",
+          "is_correct": false
+        },
+        {
+          "option": "The addition of a new reinforced nozzle larger than existing ones",
+          "is_correct": true
+        },
+        {
+          "option": "Replacing a shell course with a material of the same specification",
+          "is_correct": false
+        },
+        {
+          "option": "Grinding out a crack and weld repairing it",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Definition 3.1.2 defines alteration as a physical change which has design implications. Adding a new nozzle is an alteration."
+    },
+    {
+      "question": "According to API RP 571, which damage mechanism is characterized by a network of fine cracks on the surface of 300 series stainless steel exposed to chlorides and water?",
+      "options": [
+        {
+          "option": "Sulfidation",
+          "is_correct": false
+        },
+        {
+          "option": "Caustic Stress Corrosion Cracking",
+          "is_correct": false
+        },
+        {
+          "option": "Chloride Stress Corrosion Cracking (Cl-SCC)",
+          "is_correct": true
+        },
+        {
+          "option": "HIC",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 571 Section 3.17 describes Chloride SCC as occurring in austenitic stainless steels under tensile stress in the presence of chlorides and water at elevated temperatures."
+    },
+    {
+      "question": "In ASME Section VIII, Div. 1, what is the required joint efficiency (E) for a seamless head with no weld attachments?",
+      "options": [
+        {
+          "option": "0.70",
+          "is_correct": false
+        },
+        {
+          "option": "0.85",
+          "is_correct": false
+        },
+        {
+          "option": "1.00",
+          "is_correct": true
+        },
+        {
+          "option": "0.65",
+          "is_correct": false
+        }
+      ],
+      "explanation": "Per ASME Section VIII, Div. 1, Table UW-12, a seamless head is generally assigned E=1.00 if it meets the requirements of UW-12(d)."
+    },
+    {
+      "question": "Which NDE method is specifically used for detecting surface-breaking discontinuities in ferromagnetic materials?",
+      "options": [
+        {
+          "option": "Liquid Penetrant Testing",
+          "is_correct": false
+        },
+        {
+          "option": "Magnetic Particle Testing",
+          "is_correct": true
+        },
+        {
+          "option": "Radiographic Testing",
+          "is_correct": false
+        },
+        {
+          "option": "Ultrasonic Thickness Measurement",
+          "is_correct": false
+        }
+      ],
+      "explanation": "ASME Section V, Article 7 covers Magnetic Particle Testing, which is specifically for surface and near-surface flaws in ferromagnetic materials."
+    },
+    {
+      "question": "According to API 510, a pressure test is generally required after which of the following?",
+      "options": [
+        {
+          "option": "Every internal inspection",
+          "is_correct": false
+        },
+        {
+          "option": "A major repair or alteration",
+          "is_correct": true
+        },
+        {
+          "option": "Replacing a gasket on a manway",
+          "is_correct": false
+        },
+        {
+          "option": "Every 5 years of service",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Section 5.8.1 states a pressure test is normally required after an alteration or a major repair."
+    },
+    {
+      "question": "Per ASME Section IX, what is the 'P-number' for carbon steel (e.g., SA-516 Grade 70)?",
+      "options": [
+        {
+          "option": "P-No 1",
+          "is_correct": true
+        },
+        {
+          "option": "P-No 3",
+          "is_correct": false
+        },
+        {
+          "option": "P-No 5A",
+          "is_correct": false
+        },
+        {
+          "option": "P-No 8",
+          "is_correct": false
+        }
+      ],
+      "explanation": "ASME Section IX, Table QW-422 classifies standard carbon steels as P-No 1."
+    },
+    {
+      "question": "API RP 576 states that the most common cause of a pressure relief valve failing to open at the set pressure is:",
+      "options": [
+        {
+          "option": "Broken spring",
+          "is_correct": false
+        },
+        {
+          "option": "Corrosion products sticking the disc to the seat",
+          "is_correct": true
+        },
+        {
+          "option": "Improper sizing",
+          "is_correct": false
+        },
+        {
+          "option": "Low ambient temperature",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API RP 576 Section 5.1 identifies corrosion and fouling (sticking) as primary causes of PRV malfunction."
+    },
+    {
+      "question": "When performing a thickness measurement (UT) on a vessel at 200°F, what adjustment is usually required?",
+      "options": [
+        {
+          "option": "No adjustment is needed",
+          "is_correct": false
+        },
+        {
+          "option": "The temperature must be lowered to 70°F first",
+          "is_correct": false
+        },
+        {
+          "option": "The velocity of sound in the material changes, requiring a correction factor",
+          "is_correct": true
+        },
+        {
+          "option": "The transducer must be replaced every 10 minutes",
+          "is_correct": false
+        }
+      ],
+      "explanation": "ASME Section V, SE-797 (Article 23) and API 510 note that elevated temperatures affect the speed of sound, requiring a correction (approx. 1% per 100°F)."
+    },
+    {
+      "question": "Which damage mechanism is associated with the loss of material due to a chemical reaction with sulfur compounds at temperatures above 450°F?",
+      "options": [
+        {
+          "option": "Oxidation",
+          "is_correct": false
+        },
+        {
+          "option": "Sulfidation",
+          "is_correct": true
+        },
+        {
+          "option": "Graphitization",
+          "is_correct": false
+        },
+        {
+          "option": "Spheroidization",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 571 Section 3.61 identifies Sulfidation as corrosion from sulfur compounds at high temperatures, often affecting carbon and low-alloy steels."
+    },
+    {
+      "question": "According to API 510, how many thickness measurements are required on a vessel with 5 years of remaining life during an external inspection?",
+      "options": [
+        {
+          "option": "None, unless specified by the inspector",
+          "is_correct": true
+        },
+        {
+          "option": "At least 10",
+          "is_correct": false
+        },
+        {
+          "option": "One per shell course",
+          "is_correct": false
+        },
+        {
+          "option": "Every CML identified in the plan",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Section 6.3.3 states that thickness measurements are not required during an external inspection unless there is reason to believe the vessel wall is thinning."
+    },
+    {
+      "question": "What is the minimum holding time for a hydrostatic test per ASME Section VIII, Div 1?",
+      "options": [
+        {
+          "option": "10 minutes",
+          "is_correct": false
+        },
+        {
+          "option": "30 minutes",
+          "is_correct": false
+        },
+        {
+          "option": "There is no specific minimum time; only until the inspection is complete",
+          "is_correct": true
+        },
+        {
+          "option": "1 hour",
+          "is_correct": false
+        }
+      ],
+      "explanation": "ASME Section VIII, Div 1, UG-99 states the test pressure shall be held for a sufficient time to allow for examination of all joints and connections."
+    },
+    {
+      "question": "In ASME Section IX, which of the following is a 'Non-essential Variable' for the SMAW process?",
+      "options": [
+        {
+          "option": "A change in P-number",
+          "is_correct": false
+        },
+        {
+          "option": "A change in F-number",
+          "is_correct": false
+        },
+        {
+          "option": "A change in the groove design",
+          "is_correct": true
+        },
+        {
+          "option": "A change in PWHT",
+          "is_correct": false
+        }
+      ],
+      "explanation": "Groove design is typically a non-essential variable for WPS (QW-402), meaning it can be changed without requalifying the PQR."
+    },
+    {
+      "question": "API RP 578 requires what percentage of alloy materials to be verified in a Material Verification Program for a new high-criticality system?",
+      "options": [
+        {
+          "option": "10%",
+          "is_correct": false
+        },
+        {
+          "option": "50%",
+          "is_correct": false
+        },
+        {
+          "option": "100%",
+          "is_correct": true
+        },
+        {
+          "option": "25%",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API RP 578 Section 4.3 notes that for high-criticality services, 100% verification is often recommended."
+    },
+    {
+      "question": "What is the static head pressure at the bottom of a vessel containing 40 feet of liquid with a specific gravity of 0.85?",
+      "options": [
+        {
+          "option": "14.7 psi",
+          "is_correct": false
+        },
+        {
+          "option": "17.3 psi",
+          "is_correct": false
+        },
+        {
+          "option": "14.72 psi",
+          "is_correct": true
+        },
+        {
+          "option": "34.6 psi",
+          "is_correct": false
+        }
+      ],
+      "explanation": "Static Head = 0.433 psi/ft * Height * SG = 0.433 * 40 * 0.85 = 14.722 psi."
+    },
+    {
+      "question": "Per API 510, if a vessel is buried and cannot be internally inspected, what alternative is allowed?",
+      "options": [
+        {
+          "option": "Abandonment",
+          "is_correct": false
+        },
+        {
+          "option": "On-stream inspection (non-invasive methods)",
+          "is_correct": true
+        },
+        {
+          "option": "Calculating remaining life based on soil samples only",
+          "is_correct": false
+        },
+        {
+          "option": "Pressure test every year",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Section 6.4.1.2 allows for non-invasive or on-stream inspection techniques when physical access is restricted."
+    },
+    {
+      "question": "Which document provides guidelines for 'Temper Bead' welding as an alternative to PWHT?",
+      "options": [
+        {
+          "option": "ASME Section V",
+          "is_correct": false
+        },
+        {
+          "option": "API 510",
+          "is_correct": true
+        },
+        {
+          "option": "API RP 572",
+          "is_correct": false
+        },
+        {
+          "option": "ASME Section VIII Div 1",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Section 8.1.7.4.3 provides specific procedures for Temper Bead welding when PWHT is not practical."
+    },
+    {
+      "question": "In RT (Radiography), what is the IQI used to measure?",
+      "options": [
+        {
+          "option": "Density",
+          "is_correct": false
+        },
+        {
+          "option": "Sensitivity/Quality",
+          "is_correct": true
+        },
+        {
+          "option": "Material thickness",
+          "is_correct": false
+        },
+        {
+          "option": "Exposure time",
+          "is_correct": false
+        }
+      ],
+      "explanation": "ASME Section V, Article 2 uses Image Quality Indicators (IQI) to determine the sensitivity and quality of the radiograph."
+    },
+    {
+      "question": "According to RP 571, 'CUI' (Corrosion Under Insulation) is most prevalent at what temperature range for carbon steel?",
+      "options": [
+        {
+          "option": "Below 10°F",
+          "is_correct": false
+        },
+        {
+          "option": "10°F to 350°F",
+          "is_correct": true
+        },
+        {
+          "option": "Above 600°F",
+          "is_correct": false
+        },
+        {
+          "option": "Exactly 500°F",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 571 Section 3.22 identifies the range for CUI in carbon steel typically as 10°F to 350°F."
+    },
+    {
+      "question": "What is the maximum allowed interval for an external inspection on a pressure vessel?",
+      "options": [
+        {
+          "option": "10 years",
+          "is_correct": false
+        },
+        {
+          "option": "5 years",
+          "is_correct": true
+        },
+        {
+          "option": "Half the remaining life",
+          "is_correct": false
+        },
+        {
+          "option": "Every 2 years",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Section 6.3.2.1 states the external inspection shall not exceed five years."
+    },
+    {
+      "question": "A welder qualifies by welding a pipe in the 6G position. This qualifies the welder for which positions?",
+      "options": [
+        {
+          "option": "Flat only",
+          "is_correct": false
+        },
+        {
+          "option": "Flat and Vertical only",
+          "is_correct": false
+        },
+        {
+          "option": "All positions",
+          "is_correct": true
+        },
+        {
+          "option": "Horizontal and Flat only",
+          "is_correct": false
+        }
+      ],
+      "explanation": "ASME Section IX, Table QW-461.9 states the 6G position qualifies for all welding positions."
+    },
+    {
+      "question": "ASME Section VIII Div 1: What does the term 't' represent in the nozzle reinforcement formula?",
+      "options": [
+        {
+          "option": "Nominal thickness",
+          "is_correct": false
+        },
+        {
+          "option": "Required thickness",
+          "is_correct": true
+        },
+        {
+          "option": "Corrosion allowance",
+          "is_correct": false
+        },
+        {
+          "option": "Measured thickness",
+          "is_correct": false
+        }
+      ],
+      "explanation": "In UG-37, 't' usually refers to the required thickness of the shell calculated by the internal pressure formulas."
+    },
+    {
+      "question": "According to API 510, who must authorize any repair or alteration work before it begins?",
+      "options": [
+        {
+          "option": "The Owner-User engineer",
+          "is_correct": false
+        },
+        {
+          "option": "The API 510 Inspector",
+          "is_correct": true
+        },
+        {
+          "option": "The Quality Control Manager",
+          "is_correct": false
+        },
+        {
+          "option": "The Jurisdictional Official",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Section 8.1.1 requires API inspector authorization before starting repair/alteration."
+    },
+    {
+      "question": "Which API document provides detailed procedures for calculating the remaining strength of a corroded shell?",
+      "options": [
+        {
+          "option": "API 510",
+          "is_correct": true
+        },
+        {
+          "option": "API 579",
+          "is_correct": false
+        },
+        {
+          "option": "API 572",
+          "is_correct": false
+        },
+        {
+          "option": "ASME Section VIII",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Section 7.4 refers to Fitness-For-Service (API 579) but also contains basic guidelines for remaining strength in Section 5.7."
+    },
+    {
+      "question": "In Magnetic Particle Testing (MT), what is the disadvantage of using 'Prods'?",
+      "options": [
+        {
+          "option": "Slow speed",
+          "is_correct": false
+        },
+        {
+          "option": "Potential for arcing and localized surface damage",
+          "is_correct": true
+        },
+        {
+          "option": "Low sensitivity",
+          "is_correct": false
+        },
+        {
+          "option": "Requires two people",
+          "is_correct": false
+        }
+      ],
+      "explanation": "ASME Section V, Article 7 warns that prods can cause arcing at the contact points, which may damage the surface."
+    },
+    {
+      "question": "According to API 510, when can 'On-Stream' inspection be performed instead of internal inspection?",
+      "options": [
+        {
+          "option": "When the vessel is too small to enter",
+          "is_correct": false
+        },
+        {
+          "option": "When the corrosion rate is low and the remaining life is over 10 years",
+          "is_correct": true
+        },
+        {
+          "option": "Only if authorized by the Jurisdiction",
+          "is_correct": false
+        },
+        {
+          "option": "Never",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Section 6.4.2.1 specifies conditions where on-stream inspection is acceptable (e.g., low corrosion rate, high remaining life)."
+    },
+    {
+      "question": "API RP 571: Which damage mechanism results from the formation of iron sulfide scales on steel?",
+      "options": [
+        {
+          "option": "Oxidation",
+          "is_correct": false
+        },
+        {
+          "option": "Sulfidation",
+          "is_correct": true
+        },
+        {
+          "option": "Erosion",
+          "is_correct": false
+        },
+        {
+          "option": "Ammonia SCC",
+          "is_correct": false
+        }
+      ],
+      "explanation": "Sulfidation results from sulfur reacting with steel to form iron sulfide scales."
+    },
+    {
+      "question": "Per ASME Section VIII, Div 1, what is the 'MAWP'?",
+      "options": [
+        {
+          "option": "Minimum Allowable Working Pressure",
+          "is_correct": false
+        },
+        {
+          "option": "Maximum Allowable Working Pressure",
+          "is_correct": true
+        },
+        {
+          "option": "Modified Allowable Working Pressure",
+          "is_correct": false
+        },
+        {
+          "option": "Maximum Atmospheric Water Pressure",
+          "is_correct": false
+        }
+      ],
+      "explanation": "ASME Section VIII, Div 1, UG-98 defines MAWP."
+    },
+    {
+      "question": "A welder qualifies with an E7018 electrode (F-4). Does this qualify him to weld with an E6010 (F-3) electrode?",
+      "options": [
+        {
+          "option": "Yes",
+          "is_correct": false
+        },
+        {
+          "option": "No",
+          "is_correct": true
+        },
+        {
+          "option": "Only for flat position",
+          "is_correct": false
+        },
+        {
+          "option": "Only if he has 5 years experience",
+          "is_correct": false
+        }
+      ],
+      "explanation": "ASME Section IX, Table QW-433: F-4 does not qualify for F-3 (F-3 qualifies only F-3, but F-4 is a different classification group for performance)."
+    },
+    {
+      "question": "Which API RP 571 mechanism is described as the 'gradual change in microstructure of carbon and low-alloy steels from carbide to graphite'?",
+      "options": [
+        {
+          "option": "Spheroidization",
+          "is_correct": false
+        },
+        {
+          "option": "Graphitization",
+          "is_correct": true
+        },
+        {
+          "option": "Temper Embrittlement",
+          "is_correct": false
+        },
+        {
+          "option": "Carburization",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 571 Section 3.35 defines Graphitization as the decomposition of pearlite into ferrite and graphite nodes."
+    },
+    {
+      "question": "According to API 510, if a vessel's service conditions are changed, what must be done?",
+      "options": [
+        {
+          "option": "Nothing if the MAWP is high enough",
+          "is_correct": false
+        },
+        {
+          "option": "A new inspection must be performed immediately",
+          "is_correct": false
+        },
+        {
+          "option": "The inspector must authorize the change and determine the new inspection interval",
+          "is_correct": true
+        },
+        {
+          "option": "The vessel must be pressure tested to 1.5 times the new pressure",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Section 6.2.2 requires rerating or re-evaluating intervals if service conditions change."
+    },
+    {
+      "question": "ASME Section V, Article 6: What is the minimum time for penetrant dwell when testing for fine cracks?",
+      "options": [
+        {
+          "option": "5 minutes",
+          "is_correct": false
+        },
+        {
+          "option": "10 minutes",
+          "is_correct": true
+        },
+        {
+          "option": "30 minutes",
+          "is_correct": false
+        },
+        {
+          "option": "60 minutes",
+          "is_correct": false
+        }
+      ],
+      "explanation": "ASME Section V, Table T-672 generally recommends 10 minutes for many materials, though it varies by standard and temperature."
+    },
+    {
+      "question": "Which material verification technique uses an X-ray source to identify alloying elements?",
+      "options": [
+        {
+          "option": "Optical Emission Spectroscopy (OES)",
+          "is_correct": false
+        },
+        {
+          "option": "X-ray Fluorescence (XRF)",
+          "is_correct": true
+        },
+        {
+          "option": "Eddy Current",
+          "is_correct": false
+        },
+        {
+          "option": "Radiography",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API RP 578 Section 6.2.1 defines XRF as a common method for material verification/PMI."
+    },
+    {
+      "question": "API RP 576: When testing a PRV on a test bench, the pressure at which the valve begins to leak or hiss is called:",
+      "options": [
+        {
+          "option": "Set pressure",
+          "is_correct": false
+        },
+        {
+          "option": "Cold differential test pressure",
+          "is_correct": false
+        },
+        {
+          "option": "Simmer (or Start-to-leak)",
+          "is_correct": true
+        },
+        {
+          "option": "Burst pressure",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 576 Section 3.37 defines simmer as the audible or visible escape of fluid before the valve pops open."
+    },
+    {
+      "question": "In API 510, what is the 'Corrosion Rate' formula?",
+      "options": [
+        {
+          "option": "(t-actual - t-required) / years",
+          "is_correct": false
+        },
+        {
+          "option": "(t-previous - t-actual) / time between measurements",
+          "is_correct": true
+        },
+        {
+          "option": "t-initial / 10 years",
+          "is_correct": false
+        },
+        {
+          "option": "t-measured * thickness",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Section 7.1.1 defines the short-term and long-term corrosion rates based on the difference in thickness over time."
+    },
+    {
+      "question": "Which damage mechanism involves high-temperature hydrogen reacting with carbon in steel to form methane gas?",
+      "options": [
+        {
+          "option": "HIC",
+          "is_correct": false
+        },
+        {
+          "option": "HTHA (High Temperature Hydrogen Attack)",
+          "is_correct": true
+        },
+        {
+          "option": "SSC",
+          "is_correct": false
+        },
+        {
+          "option": "SOHIC",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 571 Section 3.36 defines HTHA as hydrogen diffusion reacting with carbides to form methane bubbles."
+    },
+    {
+      "question": "Per ASME PCC-2, what is the minimum thickness for a flush-patch plate repair in a shell?",
+      "options": [
+        {
+          "option": "0.25 inches",
+          "is_correct": false
+        },
+        {
+          "option": "3/16 inches",
+          "is_correct": false
+        },
+        {
+          "option": "Equal to the existing shell thickness",
+          "is_correct": true
+        },
+        {
+          "option": "Twice the required thickness",
+          "is_correct": false
+        }
+      ],
+      "explanation": "ASME PCC-2 Article 209 generally requires repair plates to be of same thickness and material as the base metal."
+    },
+    {
+      "question": "What is the joint efficiency for a Type 1 butt weld that has been fully radiographed per UW-12?",
+      "options": [
+        {
+          "option": "0.70",
+          "is_correct": false
+        },
+        {
+          "option": "0.85",
+          "is_correct": false
+        },
+        {
+          "option": "1.00",
+          "is_correct": true
+        },
+        {
+          "option": "0.60",
+          "is_correct": false
+        }
+      ],
+      "explanation": "ASME Section VIII Div 1, Table UW-12, Type 1 Full RT = 1.00."
+    },
+    {
+      "question": "In ASME Section IX, what does 'F-number' refer to?",
+      "options": [
+        {
+          "option": "The P-number of the base metal",
+          "is_correct": false
+        },
+        {
+          "option": "The grouping of electrodes and filler metals",
+          "is_correct": true
+        },
+        {
+          "option": "The position of the weld",
+          "is_correct": false
+        },
+        {
+          "option": "The hardness of the weld",
+          "is_correct": false
+        }
+      ],
+      "explanation": "QW-430: F-numbers are based on the usability characteristics of filler metals."
+    },
+    {
+      "question": "API 510: If a pressure vessel is in a non-corrosive service, the internal inspection can be waived if the vessel is:",
+      "options": [
+        {
+          "option": "Small and light",
+          "is_correct": false
+        },
+        {
+          "option": "Determined by the inspector to have no risk of damage",
+          "is_correct": true
+        },
+        {
+          "option": "Below 15 psi",
+          "is_correct": false
+        },
+        {
+          "option": "Inspected externally every year",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Section 6.4.2.1.1 provides the criteria for skipping internal inspections for non-corrosive environments."
+    },
+    {
+      "question": "RP 571: Which mechanism occurs when stainless steel is exposed to temperatures between 700°F and 1500°F, leading to chromium depletion at grain boundaries?",
+      "options": [
+        {
+          "option": "Graphitization",
+          "is_correct": false
+        },
+        {
+          "option": "Sensitization",
+          "is_correct": true
+        },
+        {
+          "option": "Sulfidation",
+          "is_correct": false
+        },
+        {
+          "option": "Brittle Fracture",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 571 Section 3.58 (related to Intergranular Corrosion) describes sensitization as chromium carbide precipitation at grain boundaries."
+    },
+    {
+      "question": "According to API 510, 'Repair' is defined as:",
+      "options": [
+        {
+          "option": "Replacing a nozzle with a larger one",
+          "is_correct": false
+        },
+        {
+          "option": "Work necessary to restore a vessel to a condition suitable for safe operation",
+          "is_correct": true
+        },
+        {
+          "option": "Adding a new manway",
+          "is_correct": false
+        },
+        {
+          "option": "Changing the design pressure",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Section 3.1.58 defines repair as work necessary to restore the vessel to its intended safe operating condition."
+    },
+    {
+      "question": "What is the required minimum wall thickness for a vessel with P=200 psi, R=30 inches, S=17,500 psi, and E=1.0? (Ignore corrosion allowance)",
+      "options": [
+        {
+          "option": "0.345 inches",
+          "is_correct": true
+        },
+        {
+          "option": "0.500 inches",
+          "is_correct": false
+        },
+        {
+          "option": "0.222 inches",
+          "is_correct": false
+        },
+        {
+          "option": "0.155 inches",
+          "is_correct": false
+        }
+      ],
+      "explanation": "t = PR / (SE - 0.6P) = (200 * 30) / (17500 * 1.0 - 0.6 * 200) = 6000 / (17500 - 120) = 6000 / 17380 = 0.3452 inches."
+    },
+    {
+      "question": "ASME Section IX: How many tensile tests are required to qualify a WPS?",
+      "options": [
+        {
+          "option": "1",
+          "is_correct": false
+        },
+        {
+          "option": "2",
+          "is_correct": true
+        },
+        {
+          "option": "4",
+          "is_correct": false
+        },
+        {
+          "option": "0",
+          "is_correct": false
+        }
+      ],
+      "explanation": "QW-451.1 requires 2 tensile tests for PQR qualification."
+    },
+    {
+      "question": "API RP 576: A rupture disk is often used upstream of a PRV to:",
+      "options": [
+        {
+          "option": "Reduce the cost of the PRV",
+          "is_correct": false
+        },
+        {
+          "option": "Prevent the PRV from leaking or being corroded by the process",
+          "is_correct": true
+        },
+        {
+          "option": "Increase the flow capacity",
+          "is_correct": false
+        },
+        {
+          "option": "Lower the set pressure",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 576 Section 4.5 notes rupture disks can isolate the PRV from corrosive fluids or prevent leakage."
+    },
+    {
+      "question": "Which damage mechanism in RP 571 is primarily a concern during startup/shutdown and at low temperatures?",
+      "options": [
+        {
+          "option": "Creep",
+          "is_correct": false
+        },
+        {
+          "option": "Brittle Fracture",
+          "is_correct": true
+        },
+        {
+          "option": "Sulfidation",
+          "is_correct": false
+        },
+        {
+          "option": "Graphitization",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 571 Section 3.8 states brittle fracture occurs in steels at low temperatures when they lose ductility."
+    },
+    {
+      "question": "According to ASME Section V, Article 2, the 'Hole-type' IQI should be placed on which side of the weld (normally)?",
+      "options": [
+        {
+          "option": "Source side",
+          "is_correct": true
+        },
+        {
+          "option": "Film side",
+          "is_correct": false
+        },
+        {
+          "option": "Either side is equal",
+          "is_correct": false
+        },
+        {
+          "option": "On the IQI block",
+          "is_correct": false
+        }
+      ],
+      "explanation": "T-277.1 states the IQI shall be placed on the source side unless inaccessible."
+    },
+    {
+      "question": "In API 510, what is the definition of a 'Testing Organization'?",
+      "options": [
+        {
+          "option": "The local fire department",
+          "is_correct": false
+        },
+        {
+          "option": "An entity that provides NDE services but not necessarily repairs",
+          "is_correct": true
+        },
+        {
+          "option": "The API Board",
+          "is_correct": false
+        },
+        {
+          "option": "Only the Manufacturer of the vessel",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Definition 3.1.65 describes an entity qualified to perform NDE."
+    },
+    {
+      "question": "RP 571: Caustic Stress Corrosion Cracking in carbon steel is most likely at temperatures above:",
+      "options": [
+        {
+          "option": "32°F",
+          "is_correct": false
+        },
+        {
+          "option": "120°F",
+          "is_correct": true
+        },
+        {
+          "option": "500°F",
+          "is_correct": false
+        },
+        {
+          "option": "1000°F",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 571 Section 3.15 states that for carbon steel, caustic SCC is usually a concern above 120°F depending on concentration."
+    },
+    {
+      "question": "When checking a PRV 'pop' pressure on a test stand, how many times should it be popped?",
+      "options": [
+        {
+          "option": "Exactly once",
+          "is_correct": false
+        },
+        {
+          "option": "As many times as needed to get two consistent readings",
+          "is_correct": true
+        },
+        {
+          "option": "10 times",
+          "is_correct": false
+        },
+        {
+          "option": "Until the spring breaks",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 576 Section 6.2.2 suggests multiple pops to ensure consistency and clear the seat."
+    },
+    {
+      "question": "ASME Section VIII, Div 1: What is the hydrostatic test pressure factor for a vessel designed in 2023?",
+      "options": [
+        {
+          "option": "1.5",
+          "is_correct": false
+        },
+        {
+          "option": "1.3",
+          "is_correct": true
+        },
+        {
+          "option": "1.1",
+          "is_correct": false
+        },
+        {
+          "option": "1.25",
+          "is_correct": false
+        }
+      ],
+      "explanation": "UG-99(b) specifies a hydrostatic test pressure of 1.3 times the MAWP multiplied by the stress ratio."
+    },
+    {
+      "question": "Per API 510, an Inspector must have how much experience if they hold a degree in engineering?",
+      "options": [
+        {
+          "option": "5 years",
+          "is_correct": false
+        },
+        {
+          "option": "1 year",
+          "is_correct": true
+        },
+        {
+          "option": "10 years",
+          "is_correct": false
+        },
+        {
+          "option": "None",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Annex B, Section B.1 states 1 year of experience is required if the candidate has a 4-year engineering degree."
+    },
+    {
+      "question": "In ASME Section V, Article 7, what is the 'Yoke' method?",
+      "options": [
+        {
+          "option": "A method using gamma rays",
+          "is_correct": false
+        },
+        {
+          "option": "An electromagnetic device that induces a magnetic field in the part",
+          "is_correct": true
+        },
+        {
+          "option": "A type of penetrant",
+          "is_correct": false
+        },
+        {
+          "option": "A weld alignment tool",
+          "is_correct": false
+        }
+      ],
+      "explanation": "Article 7 defines the AC or DC yoke as a common tool for Magnetic Particle inspection."
+    },
+    {
+      "question": "RP 572: During an internal inspection of a vessel with trays, the inspector should check for:",
+      "options": [
+        {
+          "option": "Levelness and tray attachment",
+          "is_correct": true
+        },
+        {
+          "option": "Color of the paint",
+          "is_correct": false
+        },
+        {
+          "option": "Weight of the vessel",
+          "is_correct": false
+        },
+        {
+          "option": "Ambient air pressure",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 572 Section 9.3 highlights checking internals like trays for fouling, damage, and levelness."
+    },
+    {
+      "question": "What is the maximum thickness of a base metal qualified by a 1/2 inch thick PQR coupon per QW-451.1?",
+      "options": [
+        {
+          "option": "1/2 inch",
+          "is_correct": false
+        },
+        {
+          "option": "1 inch",
+          "is_correct": true
+        },
+        {
+          "option": "Unlimited",
+          "is_correct": false
+        },
+        {
+          "option": "3/4 inch",
+          "is_correct": false
+        }
+      ],
+      "explanation": "QW-451.1: For test coupon thickness T from 3/16 to 3/4 inch, the max qualified thickness is 2T (2 * 1/2 = 1 inch)."
+    },
+    {
+      "question": "RP 571: Which damage mechanism is caused by the sudden failure of a material when exposed to tensile stress and a specific corrosive medium?",
+      "options": [
+        {
+          "option": "General corrosion",
+          "is_correct": false
+        },
+        {
+          "option": "Erosion-Corrosion",
+          "is_correct": false
+        },
+        {
+          "option": "Stress Corrosion Cracking",
+          "is_correct": true
+        },
+        {
+          "option": "Galvanic Corrosion",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 571 Section 2 defines SCC as cracking under the combined action of tensile stress and a corrosive environment."
+    },
+    {
+      "question": "According to API 510, what is the required inspection frequency for a pressure-relieving device in typical refinery service?",
+      "options": [
+        {
+          "option": "Every 1 year",
+          "is_correct": false
+        },
+        {
+          "option": "As determined by performance history, not to exceed 10 years (typically 5)",
+          "is_correct": true
+        },
+        {
+          "option": "Every 20 years",
+          "is_correct": false
+        },
+        {
+          "option": "Only when the vessel is inspected",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Section 6.6.2 and RP 576 suggest intervals based on history, with 5 years being common for clean service, max 10."
+    },
+    {
+      "question": "In ASME Section VIII, Div 1, which appendix covers the rules for 'Rounded Indications' in welds found by RT?",
+      "options": [
+        {
+          "option": "Appendix 1",
+          "is_correct": false
+        },
+        {
+          "option": "Appendix 4",
+          "is_correct": true
+        },
+        {
+          "option": "Appendix 8",
+          "is_correct": false
+        },
+        {
+          "option": "Appendix 2",
+          "is_correct": false
+        }
+      ],
+      "explanation": "Mandatory Appendix 4 provides acceptance criteria for rounded indications."
+    },
+    {
+      "question": "Which material is most susceptible to Polythionic Acid Stress Corrosion Cracking (PASCC)?",
+      "options": [
+        {
+          "option": "Carbon Steel",
+          "is_correct": false
+        },
+        {
+          "option": "Sensitized Austenitic Stainless Steel",
+          "is_correct": true
+        },
+        {
+          "option": "Monel",
+          "is_correct": false
+        },
+        {
+          "option": "Cast Iron",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 571 Section 3.46 explains PASCC occurs in sensitized 300 series stainless steels when exposed to sulfide scales, air, and moisture."
+    },
+    {
+      "question": "What is the required thickness of a shell if P=150 psi, R=24 inches, S=15,000 psi, E=0.85? (No corrosion)",
+      "options": [
+        {
+          "option": "0.284 inches",
+          "is_correct": true
+        },
+        {
+          "option": "0.150 inches",
+          "is_correct": false
+        },
+        {
+          "option": "0.500 inches",
+          "is_correct": false
+        },
+        {
+          "option": "0.333 inches",
+          "is_correct": false
+        }
+      ],
+      "explanation": "t = (150 * 24) / (15000 * 0.85 - 0.6 * 150) = 3600 / (12750 - 90) = 3600 / 12660 = 0.2843 inches."
+    },
+    {
+      "question": "According to API 510, who must perform the NDE for a repair?",
+      "options": [
+        {
+          "option": "The Inspector",
+          "is_correct": false
+        },
+        {
+          "option": "Personnel qualified in accordance with the owner's requirements or ASME Section V",
+          "is_correct": true
+        },
+        {
+          "option": "The welder",
+          "is_correct": false
+        },
+        {
+          "option": "The shop foreman",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Section 8.1.8 requires NDE to be performed by qualified personnel."
+    },
+    {
+      "question": "Which welding process uses a flux-covered electrode?",
+      "options": [
+        {
+          "option": "GMAW",
+          "is_correct": false
+        },
+        {
+          "option": "GTAW",
+          "is_correct": false
+        },
+        {
+          "option": "SMAW",
+          "is_correct": true
+        },
+        {
+          "option": "SAW",
+          "is_correct": false
+        }
+      ],
+      "explanation": "SMAW (Shielded Metal Arc Welding) uses a consumable flux-covered electrode."
+    },
+    {
+      "question": "RP 571: Spheroidization is a change in the microstructure of steel that results in:",
+      "options": [
+        {
+          "option": "Increased hardness",
+          "is_correct": false
+        },
+        {
+          "option": "Loss of strength and creep resistance",
+          "is_correct": true
+        },
+        {
+          "option": "Higher ductility",
+          "is_correct": false
+        },
+        {
+          "option": "Improved corrosion resistance",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 571 Section 3.61 (and 3.55) describes spheroidization as the carbides rounding out, reducing high-temperature strength."
+    },
+    {
+      "question": "Per API 510, if a vessel is moved to a new location, what must be done?",
+      "options": [
+        {
+          "option": "Nothing",
+          "is_correct": false
+        },
+        {
+          "option": "It must be internally and externally inspected to ensure suitability",
+          "is_correct": true
+        },
+        {
+          "option": "It must be repainted",
+          "is_correct": false
+        },
+        {
+          "option": "The nameplate must be removed",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Section 6.2.2 requires inspection when a vessel changes location to ensure it is fit for the new service/installation."
+    },
+    {
+      "question": "ASME Section V, Article 6: After applying the developer, what is the recommended range of time to wait before final interpretation?",
+      "options": [
+        {
+          "option": "Immediately",
+          "is_correct": false
+        },
+        {
+          "option": "10 to 60 minutes",
+          "is_correct": true
+        },
+        {
+          "option": "2 to 5 minutes",
+          "is_correct": false
+        },
+        {
+          "option": "Exactly 1 hour",
+          "is_correct": false
+        }
+      ],
+      "explanation": "T-676.1 states interpretation shall be made within 10 to 60 minutes after developer application."
+    },
+    {
+      "question": "API 510: 'Temporary Repairs' must be replaced with permanent repairs at the next:",
+      "options": [
+        {
+          "option": "External inspection",
+          "is_correct": false
+        },
+        {
+          "option": "Internal inspection or planned outage",
+          "is_correct": true
+        },
+        {
+          "option": "Opportunity (within 6 months)",
+          "is_correct": false
+        },
+        {
+          "option": "Weekend",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Section 8.1.5.1.1 states temporary repairs should be replaced at the next available maintenance period/internal inspection."
+    },
+    {
+      "question": "ASME Section VIII, Div 1: A vessel nameplate with the letter 'W' signifies:",
+      "options": [
+        {
+          "option": "Water service",
+          "is_correct": false
+        },
+        {
+          "option": "Welded construction",
+          "is_correct": true
+        },
+        {
+          "option": "Winterized",
+          "is_correct": false
+        },
+        {
+          "option": "Wall thickness check completed",
+          "is_correct": false
+        }
+      ],
+      "explanation": "UG-116(b)(1) uses 'W' for arc or gas welded construction."
+    },
+    {
+      "question": "What is the primary concern with 'Ammonia Stress Corrosion Cracking'?",
+      "options": [
+        {
+          "option": "High temperature",
+          "is_correct": false
+        },
+        {
+          "option": "Copper alloys or carbon steel with anhydrous ammonia",
+          "is_correct": true
+        },
+        {
+          "option": "Chloride content",
+          "is_correct": false
+        },
+        {
+          "option": "Sulfur content",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 571 Section 3.4 identifies SCC in carbon steel when exposed to anhydrous ammonia (especially if air/oxygen is present)."
+    },
+    {
+      "question": "In API 510, who determines the 'Remaining Life' of a vessel?",
+      "options": [
+        {
+          "option": "The Pipefitter",
+          "is_correct": false
+        },
+        {
+          "option": "The API 510 Inspector or Engineer",
+          "is_correct": true
+        },
+        {
+          "option": "The CEO",
+          "is_correct": false
+        },
+        {
+          "option": "The NDE Technician",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Section 7.1.1.1 assigns this calculation task to the inspector or engineer."
+    },
+    {
+      "question": "Which API document provides inspection practices specifically for pressure vessels?",
+      "options": [
+        {
+          "option": "API RP 571",
+          "is_correct": false
+        },
+        {
+          "option": "API RP 572",
+          "is_correct": true
+        },
+        {
+          "option": "API RP 576",
+          "is_correct": false
+        },
+        {
+          "option": "API RP 577",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API RP 572 is titled 'Inspection Practices for Pressure Vessels'."
+    },
+    {
+      "question": "What is the carbon steel P-number for SA-106 Grade B pipe?",
+      "options": [
+        {
+          "option": "P-No 1",
+          "is_correct": true
+        },
+        {
+          "option": "P-No 8",
+          "is_correct": false
+        },
+        {
+          "option": "P-No 4",
+          "is_correct": false
+        },
+        {
+          "option": "P-No 5",
+          "is_correct": false
+        }
+      ],
+      "explanation": "Per ASME IX Table QW-422, SA-106 Gr B is P-No 1."
+    },
+    {
+      "question": "In ASME Section V, Article 7, a calibration of the yoke's lifting power must be done:",
+      "options": [
+        {
+          "option": "Once a year",
+          "is_correct": true
+        },
+        {
+          "option": "Every shift",
+          "is_correct": false
+        },
+        {
+          "option": "Every 10 welds",
+          "is_correct": false
+        },
+        {
+          "option": "Once every 5 years",
+          "is_correct": false
+        }
+      ],
+      "explanation": "T-761 states the lifting power of yokes shall be calibrated annually."
+    },
+    {
+      "question": "Per API 510, weld 'Overlays' are typically inspected using which method to check for debonding?",
+      "options": [
+        {
+          "option": "RT",
+          "is_correct": false
+        },
+        {
+          "option": "UT",
+          "is_correct": true
+        },
+        {
+          "option": "MT",
+          "is_correct": false
+        },
+        {
+          "option": "VT only",
+          "is_correct": false
+        }
+      ],
+      "explanation": "UT is the standard method for detecting lack of bond or laminations in overlays."
+    },
+    {
+      "question": "RP 571: 'Erosion-Corrosion' is most commonly found at:",
+      "options": [
+        {
+          "option": "Dead legs",
+          "is_correct": false
+        },
+        {
+          "option": "Elbows, tees, and orifices where flow changes direction",
+          "is_correct": true
+        },
+        {
+          "option": "Top of the vessel",
+          "is_correct": false
+        },
+        {
+          "option": "The skirt",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 571 Section 3.27 notes that erosion-corrosion occurs in areas of high velocity or turbulence."
+    },
+    {
+      "question": "According to ASME Section IX, what is a welder qualified for if they weld a plate in the 3G position?",
+      "options": [
+        {
+          "option": "Flat only",
+          "is_correct": false
+        },
+        {
+          "option": "Vertical and Flat positions",
+          "is_correct": true
+        },
+        {
+          "option": "Horizontal and Overhead",
+          "is_correct": false
+        },
+        {
+          "option": "All positions",
+          "is_correct": false
+        }
+      ],
+      "explanation": "QW-461.9: 3G (Vertical) qualifies for Vertical and Flat."
+    },
+    {
+      "question": "API 510: If a vessel is found to be below its required thickness and the corrosion rate cannot be determined, how is the interval set?",
+      "options": [
+        {
+          "option": "Guess 10 years",
+          "is_correct": false
+        },
+        {
+          "option": "Use data from a vessel in similar service",
+          "is_correct": true
+        },
+        {
+          "option": "Wait 2 years and re-measure",
+          "is_correct": false
+        },
+        {
+          "option": "Discard the vessel",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Section 7.1.2 allows using data from similar vessels if history is unknown."
+    },
+    {
+      "question": "ASME PCC-2: Which article covers 'External Repair of Pressure Equipment Using Magnetic Particle Inspection'?",
+      "options": [
+        {
+          "option": "Not in PCC-2",
+          "is_correct": true
+        },
+        {
+          "option": "Article 101",
+          "is_correct": false
+        },
+        {
+          "option": "Article 201",
+          "is_correct": false
+        },
+        {
+          "option": "Article 304",
+          "is_correct": false
+        }
+      ],
+      "explanation": "PCC-2 covers repair methods (like Article 201: Butt-Welded Insert Plates), while NDE methods are in ASME Section V."
+    },
+    {
+      "question": "RP 576: A pressure relief valve (PRV) with a 'balanced bellows' is used to:",
+      "options": [
+        {
+          "option": "Reduce the cost of the valve",
+          "is_correct": false
+        },
+        {
+          "option": "Minimize the effect of backpressure on the set pressure",
+          "is_correct": true
+        },
+        {
+          "option": "Increase the flow area",
+          "is_correct": false
+        },
+        {
+          "option": "Stop the valve from popping",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 576 Section 4.3 describes balanced bellows as compensating for backpressure."
+    },
+    {
+      "question": "API 510: 'Fillet weld patches' can be used as a permanent repair for:",
+      "options": [
+        {
+          "option": "Only if they are designed by an engineer and meet specific criteria",
+          "is_correct": true
+        },
+        {
+          "option": "Never",
+          "is_correct": false
+        },
+        {
+          "option": "Any application",
+          "is_correct": false
+        },
+        {
+          "option": "Only on the skirt",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Section 8.1.5.1.2 allows fillet-welded patches if specifically designed/approved under certain constraints."
+    },
+    {
+      "question": "ASME Section VIII, Div 1: What is the minimum temperature for a hydrostatic test?",
+      "options": [
+        {
+          "option": "32°F",
+          "is_correct": false
+        },
+        {
+          "option": "70°F",
+          "is_correct": false
+        },
+        {
+          "option": "10°F above the MDMT",
+          "is_correct": true
+        },
+        {
+          "option": "Exactly 100°F",
+          "is_correct": false
+        }
+      ],
+      "explanation": "UG-99(h) recommends the test liquid temperature be at least 10°F above the MDMT (Minimum Design Metal Temperature)."
+    },
+    {
+      "question": "RP 571: Which damage mechanism involves the loss of material due to high-velocity water droplets impacting a surface?",
+      "options": [
+        {
+          "option": "Erosion",
+          "is_correct": true
+        },
+        {
+          "option": "Corrosion",
+          "is_correct": false
+        },
+        {
+          "option": "Creep",
+          "is_correct": false
+        },
+        {
+          "option": "Fatigue",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 571 Section 3.27 defines Erosion as mechanical loss of material from the relative movement of fluid and the surface."
+    },
+    {
+      "question": "In ASME Section V, Article 1: Who is responsible for establishing a written NDE procedure?",
+      "options": [
+        {
+          "option": "The API Inspector",
+          "is_correct": false
+        },
+        {
+          "option": "The NDE Agency / Manufacturer / Repair Organization",
+          "is_correct": true
+        },
+        {
+          "option": "The Jurisdiction",
+          "is_correct": false
+        },
+        {
+          "option": "The ASME Committee",
+          "is_correct": false
+        }
+      ],
+      "explanation": "Article 1, T-150 states each organization shall have a written procedure for each NDE method."
+    },
+    {
+      "question": "API 510: During an internal inspection, the inspector finds pitting. How is the depth of the pitting generally treated for remaining life calculations?",
+      "options": [
+        {
+          "option": "Ignore it",
+          "is_correct": false
+        },
+        {
+          "option": "The deepest pit is subtracted from the thickness, or pitted areas are averaged based on specific rules",
+          "is_correct": true
+        },
+        {
+          "option": "Pitting is always fatal to the vessel",
+          "is_correct": false
+        },
+        {
+          "option": "Add the pit depth to the wall thickness",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Section 5.7.4 provides rules for evaluating widely scattered pits."
+    },
+    {
+      "question": "RP 578: Optical Emission Spectroscopy (OES) is unique because it can detect which element that XRF cannot?",
+      "options": [
+        {
+          "option": "Chromium",
+          "is_correct": false
+        },
+        {
+          "option": "Carbon",
+          "is_correct": true
+        },
+        {
+          "option": "Nickel",
+          "is_correct": false
+        },
+        {
+          "option": "Molybdenum",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 578 Section 6.2.2 notes that OES can detect carbon, which is crucial for distinguishing steel grades like 304 vs 304L."
+    },
+    {
+      "question": "ASME Section VIII, Div 1: What is the 'MDMT'?",
+      "options": [
+        {
+          "option": "Maximum Design Metal Temperature",
+          "is_correct": false
+        },
+        {
+          "option": "Minimum Design Metal Temperature",
+          "is_correct": true
+        },
+        {
+          "option": "Mean Daily Metal Temperature",
+          "is_correct": false
+        },
+        {
+          "option": "Mandatory Design Metal Test",
+          "is_correct": false
+        }
+      ],
+      "explanation": "MDMT is defined in UG-20 as the coldest temperature at which the vessel is designed to operate at pressure."
+    },
+    {
+      "question": "What is the primary function of API RP 577?",
+      "options": [
+        {
+          "option": "Piping inspection",
+          "is_correct": false
+        },
+        {
+          "option": "Welding processes, inspection, and metallurgy",
+          "is_correct": true
+        },
+        {
+          "option": "Pressure relief valves",
+          "is_correct": false
+        },
+        {
+          "option": "Refining damage mechanisms",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API RP 577 provides guidance on welding and metallurgy for the refining industry."
+    },
+    {
+      "question": "RP 571: 'Sulfide Stress Cracking' (SSC) is a form of:",
+      "options": [
+        {
+          "option": "Creep",
+          "is_correct": false
+        },
+        {
+          "option": "Hydrogen Embrittlement",
+          "is_correct": true
+        },
+        {
+          "option": "General corrosion",
+          "is_correct": false
+        },
+        {
+          "option": "High-temperature attack",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 571 Section 3.61 (related to H2S mechanisms) defines SSC as a form of hydrogen stress cracking."
+    },
+    {
+      "question": "In ASME Section IX, what is a 'PQR'?",
+      "options": [
+        {
+          "option": "Position Quality Report",
+          "is_correct": false
+        },
+        {
+          "option": "Procedure Qualification Record",
+          "is_correct": true
+        },
+        {
+          "option": "Pressure Quality Record",
+          "is_correct": false
+        },
+        {
+          "option": "Process Qualification Review",
+          "is_correct": false
+        }
+      ],
+      "explanation": "QW-103.2: PQR is the record of welding data used to weld a test coupon."
+    },
+    {
+      "question": "API 510: What is the minimum required thickness for a shell with P=100 psi, D=48 inches, S=20,000 psi, E=0.85? (No corrosion)",
+      "options": [
+        {
+          "option": "0.141 inches",
+          "is_correct": true
+        },
+        {
+          "option": "0.250 inches",
+          "is_correct": false
+        },
+        {
+          "option": "0.500 inches",
+          "is_correct": false
+        },
+        {
+          "option": "0.100 inches",
+          "is_correct": false
+        }
+      ],
+      "explanation": "t = (100 * 24) / (20000 * 0.85 - 0.6 * 100) = 2400 / (17000 - 60) = 2400 / 16940 = 0.1416 inches."
+    },
+    {
+      "question": "RP 572: Where is 'Napthenic Acid Corrosion' most likely to occur?",
+      "options": [
+        {
+          "option": "Water treatment plants",
+          "is_correct": false
+        },
+        {
+          "option": "Crude distillation units (high temp areas)",
+          "is_correct": true
+        },
+        {
+          "option": "Storage tanks",
+          "is_correct": false
+        },
+        {
+          "option": "Air receivers",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 571 Section 3.46 and RP 572 highlight this as a high-temperature mechanism in crude units."
+    },
+    {
+      "question": "ASME Section V, Article 23: When using UT Thickness measurement, what type of calibration is required?",
+      "options": [
+        {
+          "option": "Comparison with a known thickness block of the same material",
+          "is_correct": true
+        },
+        {
+          "option": "Comparison with a piece of wood",
+          "is_correct": false
+        },
+        {
+          "option": "No calibration required",
+          "is_correct": false
+        },
+        {
+          "option": "Calibration using a voltmeter",
+          "is_correct": false
+        }
+      ],
+      "explanation": "SE-797 requires calibration on blocks of known thickness and similar material."
+    },
+    {
+      "question": "API 510: If a vessel is in 'intermittent service', how should the corrosion rate be calculated?",
+      "options": [
+        {
+          "option": "Based only on the time it is under pressure",
+          "is_correct": false
+        },
+        {
+          "option": "Based on the total calendar time",
+          "is_correct": true
+        },
+        {
+          "option": "Exclude the winter months",
+          "is_correct": false
+        },
+        {
+          "option": "Divide by 2",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Section 7.1.1 generally uses calendar days to determine the average rate across the life of the asset."
+    },
+    {
+      "question": "ASME Section IX: 'Welding Position' is what type of variable for a welder's performance qualification (WPQ)?",
+      "options": [
+        {
+          "option": "Non-essential",
+          "is_correct": false
+        },
+        {
+          "option": "Essential",
+          "is_correct": true
+        },
+        {
+          "option": "Supplemental essential",
+          "is_correct": false
+        },
+        {
+          "option": "Information only",
+          "is_correct": false
+        }
+      ],
+      "explanation": "QW-350 lists position as an essential variable for the performance qualification of a welder."
+    },
+    {
+      "question": "RP 571: 'Carburization' results in:",
+      "options": [
+        {
+          "option": "Increased ductility",
+          "is_correct": false
+        },
+        {
+          "option": "Loss of ductility and increased hardness/brittleness",
+          "is_correct": true
+        },
+        {
+          "option": "Better weldability",
+          "is_correct": false
+        },
+        {
+          "option": "Decreased hardness",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 571 Section 3.11: Carburization increases the carbon content in the surface, making it hard and brittle."
+    },
+    {
+      "question": "API 510: A 'Repair Organization' can be:",
+      "options": [
+        {
+          "option": "The Owner-User",
+          "is_correct": false
+        },
+        {
+          "option": "A Contractor",
+          "is_correct": false
+        },
+        {
+          "option": "The Manufacturer",
+          "is_correct": false
+        },
+        {
+          "option": "All of the above",
+          "is_correct": true
+        }
+      ],
+      "explanation": "API 510 Section 3.1.61 defines several entities that can act as a repair organization."
+    },
+    {
+      "question": "ASME Section VIII, Div 1: What is the standard required thickness of a 2:1 Ellipsoidal head? (t_head formula)",
+      "options": [
+        {
+          "option": "t = PD / (2SE - 0.2P)",
+          "is_correct": true
+        },
+        {
+          "option": "t = PR / (SE - 0.6P)",
+          "is_correct": false
+        },
+        {
+          "option": "t = PL / (2SE - 0.2P)",
+          "is_correct": false
+        },
+        {
+          "option": "t = PD / (SE - 0.6P)",
+          "is_correct": false
+        }
+      ],
+      "explanation": "UG-32(d) gives the formula for 2:1 Ellipsoidal heads."
+    },
+    {
+      "question": "In API 510, a pressure vessel is defined as a container designed to withstand pressure above:",
+      "options": [
+        {
+          "option": "5 psi",
+          "is_correct": false
+        },
+        {
+          "option": "15 psi",
+          "is_correct": true
+        },
+        {
+          "option": "100 psi",
+          "is_correct": false
+        },
+        {
+          "option": "Atmospheric pressure",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Scope excludes vessels below 15 psi."
+    },
+    {
+      "question": "RP 571: What is 'Mechanical Fatigue'?",
+      "options": [
+        {
+          "option": "Failure due to high temperature",
+          "is_correct": false
+        },
+        {
+          "option": "Failure due to cyclic stresses",
+          "is_correct": true
+        },
+        {
+          "option": "Failure due to chemical attack",
+          "is_correct": false
+        },
+        {
+          "option": "Failure due to static load",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 571 Section 3.44 defines fatigue as degradation under cyclic loading."
+    },
+    {
+      "question": "API 510: When can an inspector authorize a 'Liner' repair without engineering approval?",
+      "options": [
+        {
+          "option": "Always",
+          "is_correct": false
+        },
+        {
+          "option": "Never; engineering must always be involved in design changes",
+          "is_correct": true
+        },
+        {
+          "option": "If it is less than 1 square foot",
+          "is_correct": false
+        },
+        {
+          "option": "If the liner is made of carbon steel",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Section 8.1.1 and 8.1.5 require engineering approval for modifications and structural changes."
+    },
+    {
+      "question": "ASME Section V, Article 6: Penetrant testing 'interpretation' should be done under a minimum lighting of:",
+      "options": [
+        {
+          "option": "100 foot-candles",
+          "is_correct": true
+        },
+        {
+          "option": "10 foot-candles",
+          "is_correct": false
+        },
+        {
+          "option": "50 foot-candles",
+          "is_correct": false
+        },
+        {
+          "option": "1000 foot-candles",
+          "is_correct": false
+        }
+      ],
+      "explanation": "T-676.3 requires 100 fc (1000 lux) for color contrast penetrant."
+    },
+    {
+      "question": "Which document covers 'Inspection of Pressure-Relieving Devices'?",
+      "options": [
+        {
+          "option": "API 510",
+          "is_correct": false
+        },
+        {
+          "option": "API RP 576",
+          "is_correct": true
+        },
+        {
+          "option": "API RP 572",
+          "is_correct": false
+        },
+        {
+          "option": "ASME Section IX",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API RP 576 is the specific standard for PRV inspection."
+    },
+    {
+      "question": "Per API 510, 'Major Repair' includes:",
+      "options": [
+        {
+          "option": "Removing and replacing a large nozzle (NPS 12)",
+          "is_correct": true
+        },
+        {
+          "option": "Replacing a gasket",
+          "is_correct": false
+        },
+        {
+          "option": "Painting the vessel",
+          "is_correct": false
+        },
+        {
+          "option": "Seal welding a leaking tube",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Definition 3.1.37: Major repairs include replacing large shell sections or nozzles."
+    },
+    {
+      "question": "What is the joint efficiency for a Type 2 butt weld (single welded with backing) with Spot Radiography?",
+      "options": [
+        {
+          "option": "0.80",
+          "is_correct": true
+        },
+        {
+          "option": "0.90",
+          "is_correct": false
+        },
+        {
+          "option": "0.65",
+          "is_correct": false
+        },
+        {
+          "option": "1.00",
+          "is_correct": false
+        }
+      ],
+      "explanation": "ASME Section VIII, Div 1, Table UW-12: Type 2 Spot RT = 0.80."
+    },
+    {
+      "question": "RP 571: 'Cl-SCC' in stainless steel is most likely to occur in which fluid?",
+      "options": [
+        {
+          "option": "Pure water",
+          "is_correct": false
+        },
+        {
+          "option": "Cooling water containing chlorides",
+          "is_correct": true
+        },
+        {
+          "option": "Sulfuric acid",
+          "is_correct": false
+        },
+        {
+          "option": "Oil",
+          "is_correct": false
+        }
+      ],
+      "explanation": "Chloride SCC is driven by chloride ions in aqueous environments."
+    },
+    {
+      "question": "ASME Section IX: A change in the 'A-number' on a WPS is:",
+      "options": [
+        {
+          "option": "An Essential Variable",
+          "is_correct": true
+        },
+        {
+          "option": "A Non-essential Variable",
+          "is_correct": false
+        },
+        {
+          "option": "Not tracked",
+          "is_correct": false
+        },
+        {
+          "option": "Only for GMAW",
+          "is_correct": false
+        }
+      ],
+      "explanation": "QW-404.5: A change in the chemical composition of the weld deposit (A-number) is an essential variable."
+    },
+    {
+      "question": "API 510: If a vessel's nameplate is missing, the inspector should:",
+      "options": [
+        {
+          "option": "Scrap the vessel",
+          "is_correct": false
+        },
+        {
+          "option": "Try to establish the vessel's identity and replace the nameplate per code rules",
+          "is_correct": true
+        },
+        {
+          "option": "Paint a new one on with a marker",
+          "is_correct": false
+        },
+        {
+          "option": "Assume it is 100 psi",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Section 5.11 provides guidance for nameplate replacement or verification."
+    },
+    {
+      "question": "ASME Section V, Article 7: When using the 'Prod' method, the spacing should be:",
+      "options": [
+        {
+          "option": "1 to 2 inches",
+          "is_correct": false
+        },
+        {
+          "option": "3 to 8 inches",
+          "is_correct": true
+        },
+        {
+          "option": "Exactly 12 inches",
+          "is_correct": false
+        },
+        {
+          "option": "No limit",
+          "is_correct": false
+        }
+      ],
+      "explanation": "T-752.3 recommends spacing between 3 and 8 inches."
+    },
+    {
+      "question": "Which API RP 571 mechanism causes 'blisters' in carbon steel shell plates?",
+      "options": [
+        {
+          "option": "Creep",
+          "is_correct": false
+        },
+        {
+          "option": "Hydrogen Induced Cracking (HIC) / Hydrogen Blistering",
+          "is_correct": true
+        },
+        {
+          "option": "Oxidation",
+          "is_correct": false
+        },
+        {
+          "option": "Erosion",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 571 Section 3.36 (Hydrogen damage) explains blistering due to atomic hydrogen collecting at inclusions."
+    },
+    {
+      "question": "ASME Section VIII, Div 1: The 'U' stamp signifies:",
+      "options": [
+        {
+          "option": "The vessel was built to Section VIII, Div 1 rules",
+          "is_correct": true
+        },
+        {
+          "option": "The vessel is for underwater use",
+          "is_correct": false
+        },
+        {
+          "option": "The vessel is un-fired",
+          "is_correct": false
+        },
+        {
+          "option": "The vessel is made of uranium",
+          "is_correct": false
+        }
+      ],
+      "explanation": "UG-116: The 'U' symbol is the official Code U-stamp."
+    },
+    {
+      "question": "What is the maximum allowed time between the start of a MT inspection and the application of the particles?",
+      "options": [
+        {
+          "option": "They must be applied while the magnetizing current is on (for continuous method)",
+          "is_correct": true
+        },
+        {
+          "option": "10 minutes",
+          "is_correct": false
+        },
+        {
+          "option": "1 hour",
+          "is_correct": false
+        },
+        {
+          "option": "Particles are applied first",
+          "is_correct": false
+        }
+      ],
+      "explanation": "ASME V, Article 7: The continuous method requires particles to be applied while current is flowing."
+    },
+    {
+      "question": "API 510: 'Remaining Life' calculation (L) is equal to:",
+      "options": [
+        {
+          "option": "(t_actual - t_required) / Corrosion Rate",
+          "is_correct": true
+        },
+        {
+          "option": "t_actual / Corrosion Rate",
+          "is_correct": false
+        },
+        {
+          "option": "(t_initial - t_actual) / 2",
+          "is_correct": false
+        },
+        {
+          "option": "Corrosion Rate / t_actual",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Section 7.1.1.1 formula."
+    },
+    {
+      "question": "In ASME Section IX, what base metal P-number is '304 Stainless Steel'?",
+      "options": [
+        {
+          "option": "P-No 1",
+          "is_correct": false
+        },
+        {
+          "option": "P-No 8",
+          "is_correct": true
+        },
+        {
+          "option": "P-No 4",
+          "is_correct": false
+        },
+        {
+          "option": "P-No 5",
+          "is_correct": false
+        }
+      ],
+      "explanation": "QW-422: Austenitic stainless steels like 304/316 are P-No 8."
+    },
+    {
+      "question": "RP 571: 'Temper Embrittlement' affects which materials?",
+      "options": [
+        {
+          "option": "Low alloy steels (2.25Cr-1Mo)",
+          "is_correct": true
+        },
+        {
+          "option": "Carbon Steel",
+          "is_correct": false
+        },
+        {
+          "option": "300 Series Stainless",
+          "is_correct": false
+        },
+        {
+          "option": "Aluminum",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 571 Section 3.62: Temper embrittlement is a loss of toughness in Cr-Mo steels after exposure to high temps."
+    },
+    {
+      "question": "What is the MAWP of a shell if t=0.5, S=17500, E=1.0, R=24? (Ignore 0.6P term for simplification or use standard formula)",
+      "options": [
+        {
+          "option": "362 psi",
+          "is_correct": true
+        },
+        {
+          "option": "100 psi",
+          "is_correct": false
+        },
+        {
+          "option": "500 psi",
+          "is_correct": false
+        },
+        {
+          "option": "250 psi",
+          "is_correct": false
+        }
+      ],
+      "explanation": "P = SEt / (R + 0.6t) = (17500 * 1.0 * 0.5) / (24 + 0.3) = 8750 / 24.3 = 360 psi (Approx 362)."
+    },
+    {
+      "question": "API 510: If a repair is being made to a P-No 4 material, what is the normally required PWHT temperature?",
+      "options": [
+        {
+          "option": "1100°F",
+          "is_correct": true
+        },
+        {
+          "option": "1500°F",
+          "is_correct": false
+        },
+        {
+          "option": "200°F",
+          "is_correct": false
+        },
+        {
+          "option": "None",
+          "is_correct": false
+        }
+      ],
+      "explanation": "ASME VIII Div 1 Table UCS-56 requires PWHT (approx 1100°F) for P-4 steels."
+    },
+    {
+      "question": "RP 576: When a PRV is 'Chattering', it is:",
+      "options": [
+        {
+          "option": "Opening and closing rapidly",
+          "is_correct": true
+        },
+        {
+          "option": "Singing a melody",
+          "is_correct": false
+        },
+        {
+          "option": "Stuck open",
+          "is_correct": false
+        },
+        {
+          "option": "Leaking slowly",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 576 Section 3.10 defines chattering as rapid reciprocating motion of the disc."
+    },
+    {
+      "question": "According to ASME PCC-2, what is the maximum diameter of a circular fillet-welded patch allowed by most standards?",
+      "options": [
+        {
+          "option": "No limit",
+          "is_correct": false
+        },
+        {
+          "option": "6 inches",
+          "is_correct": false
+        },
+        {
+          "option": "Determined by engineering but often restricted to small areas for temporary fixes",
+          "is_correct": true
+        },
+        {
+          "option": "24 inches",
+          "is_correct": false
+        }
+      ],
+      "explanation": "PCC-2 Article 212 restricts the use of these patches based on stress and size."
+    },
+    {
+      "question": "ASME Section V, Article 2: The density of a radiograph for X-ray through the weld should be between:",
+      "options": [
+        {
+          "option": "1.0 and 2.0",
+          "is_correct": false
+        },
+        {
+          "option": "1.8 and 4.0",
+          "is_correct": true
+        },
+        {
+          "option": "0.5 and 1.5",
+          "is_correct": false
+        },
+        {
+          "option": "4.0 and 5.0",
+          "is_correct": false
+        }
+      ],
+      "explanation": "T-282.1: Density shall be 1.8 to 4.0 for X-ray."
+    },
+    {
+      "question": "API 510: 'CML' stands for:",
+      "options": [
+        {
+          "option": "Corrosion Monitoring Location",
+          "is_correct": false
+        },
+        {
+          "option": "Condition Monitoring Location",
+          "is_correct": true
+        },
+        {
+          "option": "Calculated Minimum Limit",
+          "is_correct": false
+        },
+        {
+          "option": "Current Metal Loss",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Section 3.1.13 defines CML."
+    },
+    {
+      "question": "RP 571: 'Vibration-induced Fatigue' is most common in:",
+      "options": [
+        {
+          "option": "Small diameter piping branches",
+          "is_correct": true
+        },
+        {
+          "option": "Large thick shells",
+          "is_correct": false
+        },
+        {
+          "option": "Internal baffles",
+          "is_correct": false
+        },
+        {
+          "option": "Foundation bolts",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 571 Section 3.67 notes small bore connections are highly susceptible to vibration fatigue."
+    },
+    {
+      "question": "ASME Section VIII, Div 1: A vessel with an MDMT of -20°F and a thickness of 2 inches usually requires:",
+      "options": [
+        {
+          "option": "Impact testing",
+          "is_correct": true
+        },
+        {
+          "option": "Painting",
+          "is_correct": false
+        },
+        {
+          "option": "Nothing",
+          "is_correct": false
+        },
+        {
+          "option": "Warm water storage",
+          "is_correct": false
+        }
+      ],
+      "explanation": "UCS-66 curves show that at 2 inches and -20°F, carbon steel is typically below the curve, requiring impact testing."
+    },
+    {
+      "question": "API 510: 'Inspector' as used in the code means:",
+      "options": [
+        {
+          "option": "Authorized pressure vessel inspector",
+          "is_correct": true
+        },
+        {
+          "option": "The shop welder",
+          "is_correct": false
+        },
+        {
+          "option": "The safety manager",
+          "is_correct": false
+        },
+        {
+          "option": "The jurisdictional clerk",
+          "is_correct": false
+        }
+      ],
+      "explanation": "Definition 3.1.8."
+    },
+    {
+      "question": "RP 577: 'Undercut' is a weld discontinuity found at:",
+      "options": [
+        {
+          "option": "The root of the weld",
+          "is_correct": false
+        },
+        {
+          "option": "The junction of the weld face and the base metal (toe)",
+          "is_correct": true
+        },
+        {
+          "option": "Inside the weld bead",
+          "is_correct": false
+        },
+        {
+          "option": "The start of the arc",
+          "is_correct": false
+        }
+      ],
+      "explanation": "Undercut is a groove melted into the base metal at the toe."
+    },
+    {
+      "question": "ASME Section IX: For a performance qualification (WPQ) on a pipe, what is the '1G' position?",
+      "options": [
+        {
+          "option": "Pipe horizontal and rotated during welding",
+          "is_correct": true
+        },
+        {
+          "option": "Pipe vertical and fixed",
+          "is_correct": false
+        },
+        {
+          "option": "Pipe at 45 degrees",
+          "is_correct": false
+        },
+        {
+          "option": "Pipe horizontal and fixed",
+          "is_correct": false
+        }
+      ],
+      "explanation": "QW-461.4: 1G (rotated) is the flat position for pipe."
+    },
+    {
+      "question": "Which document specifies Article 201 for butt-welded insert plates?",
+      "options": [
+        {
+          "option": "ASME PCC-2",
+          "is_correct": true
+        },
+        {
+          "option": "API 510",
+          "is_correct": false
+        },
+        {
+          "option": "ASME VIII",
+          "is_correct": false
+        },
+        {
+          "option": "API 572",
+          "is_correct": false
+        }
+      ],
+      "explanation": "ASME PCC-2 Article 201 specifically details the repair of pressure equipment using insert plates."
+    },
+    {
+      "question": "ASME Section V, Article 6: How should penetrant be removed when using 'solvent-removable' penetrant?",
+      "options": [
+        {
+          "option": "By spraying solvent directly on the part",
+          "is_correct": false
+        },
+        {
+          "option": "By wiping with a lint-free cloth moistened with solvent",
+          "is_correct": true
+        },
+        {
+          "option": "By dipping in water",
+          "is_correct": false
+        },
+        {
+          "option": "By sandblasting",
+          "is_correct": false
+        }
+      ],
+      "explanation": "T-673.3 prohibits spraying solvent directly on the surface to prevent washing penetrant out of flaws."
+    },
+    {
+      "question": "API 510: What is the maximum interval for an internal inspection for a vessel with a remaining life of 4 years?",
+      "options": [
+        {
+          "option": "4 years",
+          "is_correct": false
+        },
+        {
+          "option": "2 years",
+          "is_correct": true
+        },
+        {
+          "option": "10 years",
+          "is_correct": false
+        },
+        {
+          "option": "1 year",
+          "is_correct": false
+        }
+      ],
+      "explanation": "Half of 4 years is 2 years. Interval = min(10, 0.5*Life)."
+    },
+    {
+      "question": "RP 571: What is the main driver for 'Sulfidation'?",
+      "options": [
+        {
+          "option": "Moisture",
+          "is_correct": false
+        },
+        {
+          "option": "Sulfur content in the process and high temperature",
+          "is_correct": true
+        },
+        {
+          "option": "Ambient air",
+          "is_correct": false
+        },
+        {
+          "option": "Chlorides",
+          "is_correct": false
+        }
+      ],
+      "explanation": "Sulfidation occurs in high-temp hydrocarbon streams containing sulfur."
+    },
+    {
+      "question": "ASME Section IX: A 'WPS' must be:",
+      "options": [
+        {
+          "option": "Available to the welder",
+          "is_correct": true
+        },
+        {
+          "option": "Locked in a safe",
+          "is_correct": false
+        },
+        {
+          "option": "Signed by the API Inspector",
+          "is_correct": false
+        },
+        {
+          "option": "In a foreign language",
+          "is_correct": false
+        }
+      ],
+      "explanation": "QW-103.1: The WPS shall be available for reference and use by the welder."
+    },
+    {
+      "question": "In API 510, 'In-Service' inspection includes which of the following?",
+      "options": [
+        {
+          "option": "Internal inspection",
+          "is_correct": false
+        },
+        {
+          "option": "External inspection",
+          "is_correct": false
+        },
+        {
+          "option": "On-stream inspection",
+          "is_correct": false
+        },
+        {
+          "option": "All of the above",
+          "is_correct": true
+        }
+      ],
+      "explanation": "Section 6.1 lists the various types of inspections."
+    },
+    {
+      "question": "ASME Section VIII, Div 1: What is the requirement for a 'Tell-tale' hole in a reinforcing pad?",
+      "options": [
+        {
+          "option": "It must be left open to the atmosphere (or plugged with grease)",
+          "is_correct": true
+        },
+        {
+          "option": "It must be seal welded shut",
+          "is_correct": false
+        },
+        {
+          "option": "It must be connected to a pressure gauge",
+          "is_correct": false
+        },
+        {
+          "option": "It must be NPS 2 or larger",
+          "is_correct": false
+        }
+      ],
+      "explanation": "UG-37(g) requires a tell-tale hole to detect leakage from the inner weld."
+    },
+    {
+      "question": "Which damage mechanism involves high temperature (>800°F) and results in the formation of voids and cracks at grain boundaries?",
+      "options": [
+        {
+          "option": "Creep",
+          "is_correct": true
+        },
+        {
+          "option": "Fatigue",
+          "is_correct": false
+        },
+        {
+          "option": "Corrosion",
+          "is_correct": false
+        },
+        {
+          "option": "Brittle Fracture",
+          "is_correct": false
+        }
+      ],
+      "explanation": "RP 571 Section 3.22 defines Creep as time-dependent deformation at high temperature."
+    },
+    {
+      "question": "ASME Section V, Article 7: A 'Pie Gauge' is used for:",
+      "options": [
+        {
+          "option": "Measuring thickness",
+          "is_correct": false
+        },
+        {
+          "option": "Determining the direction of the magnetic field",
+          "is_correct": true
+        },
+        {
+          "option": "Checking the developer",
+          "is_correct": false
+        },
+        {
+          "option": "Eating during lunch",
+          "is_correct": false
+        }
+      ],
+      "explanation": "T-764.2.1: The magnetic flux indicator (pie gauge) is used to verify field direction."
+    },
+    {
+      "question": "API 510: If a pressure vessel is rerated to a higher MAWP, what is mandatory?",
+      "options": [
+        {
+          "option": "Calculations and a leak test",
+          "is_correct": true
+        },
+        {
+          "option": "A new paint job",
+          "is_correct": false
+        },
+        {
+          "option": "Replacing all nozzles",
+          "is_correct": false
+        },
+        {
+          "option": "Moving the vessel",
+          "is_correct": false
+        }
+      ],
+      "explanation": "API 510 Section 8.2 requires calculations and normally a pressure test to verify the new rating."
+    },
+    {
+      "question": "According to RP 576, what is the 'Cold Differential Test Pressure' (CDTP)?",
+      "options": [
+        {
+          "option": "The set pressure at operating temperature",
+          "is_correct": false
+        },
+        {
+          "option": "The set pressure adjusted for backpressure and temperature on the test bench",
+          "is_correct": true
+        },
+        {
+          "option": "The pressure at which the valve freezes",
+          "is_correct": false
+        },
+        {
+          "option": "The pressure of the cooling water",
+          "is_correct": false
+        }
+      ],
+      "explanation": "CDTP is the bench set pressure adjusted for service conditions."
+    }
+  ]
+}
