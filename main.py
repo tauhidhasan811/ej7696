@@ -22,6 +22,13 @@ print('=' * 80)
 print("Initial Model Name:", model.model)
 print('=' * 80)
 
+print('-' * 80)
+print(' ' * 25, "API keys loading")
+print('-' * 80)
+print("Gemini Key Loaded:", os.environ.get('GOOGLE_API_KEY'))
+print("OpenAI Key Loaded:", os.environ.get('OPENAI_API_KEY'))
+print('-' * 80)
+
 #model = LoadOpenAIModel()
 @app.post('/api/config-model/')
 async def config_model(model_name = Form(), temp: float =Form(0.7)):
@@ -94,9 +101,9 @@ async def generate_question(ex_name= Form(),
         print(response)
 
 
-        print('x' * 120)
+        print('x' * 100)
         print("Number of question generated:", len(response))
-        print('x' * 120)
+        print('x' * 100)
 
         message = JSONResponse(
             status_code=200,
