@@ -1,6 +1,7 @@
 import os
 from dotenv import load_dotenv
 from fastapi import FastAPI, Form
+from fastapi.middleware.cors import CORSMiddleware
 from asset.hyperparameters import hyper
 from fastapi.responses import JSONResponse, FileResponse
 from asset.config.gen_model import LoadGenModel
@@ -11,8 +12,17 @@ from asset.core.process_gemi3_response import get_text
 from asset.service.check_question import CheckQuestionCount
 from asset.service.get_model_response import GetModelResponse
 from asset.service.merge_data import MergeData
+
+
 app = FastAPI()
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],          # Anyone can access
+    allow_credentials=True,
+    allow_methods=["*"],          # ALL methods (GET, POST, PUT, DELETE, etc.)
+    allow_headers=["*"],   
+)
 
 
 load_dotenv()
