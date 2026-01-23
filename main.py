@@ -108,7 +108,7 @@ async def generate_question(ex_name= Form(),
         
         response = CleanData(response)
         """
-        print(response)
+        #print(response)
 
 
         print('x' * 100)
