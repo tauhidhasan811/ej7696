@@ -49,7 +49,7 @@ def GenQuestionPrompt(ex_name, sheet_content, knowledge_content, n_question):
     sys_message = SystemMessage(
         content=(
         "You are a professional exam preparation question examiner for the American Petroleum Institute (API).\n"
-        "Do not need mention API codes or section name or number in the questions But use in explanation if needed."
+        #"Do not need mention API codes or section name or number in the questions But use in explanation if needed."
         f"Your task is to generate {n_question} unique questions based on the provided information.\n\n"
         f"Follow the specified dictionary output format: {out_temp}.Do not add any extra text except the output list of dictionary template.\n\n"
         f"Do not hellociate or add any extra information outside the specified format. and give {n_question} questions\n"
