@@ -84,12 +84,21 @@ async def generate_question(ex_name= Form(),
         #print(response)
         #if type(response) != list:
             #response = CleanData(response)
-        text = GetModelResponse(model=model, ex_name=ex_name,
+        status, text = GetModelResponse(model=model, ex_name=ex_name,
                                     sheet_content=sheet_content,
                                    knowledge_content=knowledge_content,
                                    n_question=n_question)
+        s_count = 0
+        while not status and s_count < 3:
+            print(f"Retrying... Attempt {s_count + 1}")
+            status, text = GetModelResponse(model=model, ex_name=ex_name,
+                                        sheet_content=sheet_content,
+                                       knowledge_content=knowledge_content,
+                                       n_question=n_question)
+            s_count += 1
         
-
+        s_count = 0
+        
         count, response = CheckQuestionCount(response=text, n_question=n_question)
 
         if count != 0:
