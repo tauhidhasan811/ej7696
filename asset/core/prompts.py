@@ -1,5 +1,5 @@
 from langchain_core.prompts import PromptTemplate
-from asset.core.output_format import out_temp
+from asset.core.output_format import out_temp, DIFFICULTY_MIX_CONFIG
 from langchain.messages import SystemMessage, HumanMessage, AIMessage
 
 """def GenBookPrompt(ex_name, sheet_content, knowledge_content):
@@ -44,13 +44,13 @@ from langchain.messages import SystemMessage, HumanMessage, AIMessage
     return prompt"""
 
 
-def GenQuestionPrompt(ex_name, sheet_content, knowledge_content, n_question):
+def GenQuestionPrompt(ex_name, sheet_content, knowledge_content, n_question, exam_type):
 
     sys_message = SystemMessage(
         content=(
         "You are a professional exam preparation question examiner for the American Petroleum Institute (API).\n"
-        #"Do not need mention API codes or section name or number in the questions But use in explanation if needed."
         f"Your task is to generate {n_question} unique questions based on the provided information.\n\n"
+        f"Exam difficulty mix should be as follows: {DIFFICULTY_MIX_CONFIG[exam_type]}.\n\n"
         f"Follow the specified dictionary output format: {out_temp}.Do not add any extra text except the output list of dictionary template.\n\n"
         f"Do not hellociate or add any extra information outside the specified format. and give {n_question} questions\n"
         )

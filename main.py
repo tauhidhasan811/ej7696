@@ -76,7 +76,8 @@ async def config_model(model_name = Form(), temp: float =Form(0.7)):
 async def generate_question(ex_name= Form(), 
                             sheet_content=Form(), 
                             knowledge_content=Form(), 
-                            n_question: int =Form()):
+                            n_question: int =Form(),
+                            exam_type: str = Form()):
     try:
         #prompt = GenQuestionPrompt(ex_name=ex_name, sheet_content=sheet_content, knowledge_content=knowledge_content, n_question=n_question)
         
@@ -87,14 +88,16 @@ async def generate_question(ex_name= Form(),
         status, text = GetModelResponse(model=model, ex_name=ex_name,
                                     sheet_content=sheet_content,
                                    knowledge_content=knowledge_content,
-                                   n_question=n_question)
+                                   n_question=n_question,
+                                   exam_type=exam_type)
         s_count = 0
         while not status and s_count < 3:
             print(f"Retrying... Attempt {s_count + 1}")
             status, text = GetModelResponse(model=model, ex_name=ex_name,
                                         sheet_content=sheet_content,
                                        knowledge_content=knowledge_content,
-                                       n_question=n_question)
+                                       n_question=n_question,
+                                       exam_type=exam_type)
             s_count += 1
         
         s_count = 0
@@ -105,7 +108,8 @@ async def generate_question(ex_name= Form(),
             new_data = GetModelResponse(model=model, ex_name=ex_name,
                                         sheet_content=sheet_content,
                                         knowledge_content=knowledge_content,
-                                        n_question=count)
+                                        n_question=count,
+                                        exam_type=exam_type)
             
             response = MergeData(previous=text, new=new_data)
 
