@@ -1,3 +1,13 @@
 def ModelOutput(model, prompt):
-    response = model.invoke(prompt).content
-    return response
+    try:
+        response = model.invoke(prompt).content
+        status=True
+    
+    except Exception as ex:
+        status = False
+        response = str(ex)
+
+    """print('-' * 80)
+    print(response)
+    print('-' * 80)"""
+    return status, response

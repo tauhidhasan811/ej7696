@@ -90,6 +90,19 @@ async def generate_question(ex_name= Form(),
                                    knowledge_content=knowledge_content,
                                    n_question=n_question,
                                    exam_type=exam_type)
+        
+        if not status:
+            message = JSONResponse(
+                status_code=500,
+                content={
+                    'status': False,
+                    'status_code': 500,
+                    'text': text 
+                }
+            )
+            return message
+        
+
         s_count = 0
         while not status and s_count < 3:
             print(f"Retrying... Attempt {s_count + 1}")
@@ -128,6 +141,7 @@ async def generate_question(ex_name= Form(),
         print("Number of question generated:", len(response))
         print('x' * 100)
 
+        
         message = JSONResponse(
             status_code=200,
             content={
