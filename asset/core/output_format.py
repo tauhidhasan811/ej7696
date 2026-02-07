@@ -9,9 +9,14 @@ out_temp = [
     }
 ]
 
-
-
 DIFFICULTY_MIX_CONFIG = {
+    "label": "Realistic API exam blend",
+    "open_book_percent": 60,
+    "closed_book_percent": 40,
+    "description": "Mix of clause lookup/calculation questions and conceptual recall questions"
+}
+
+"""DIFFICULTY_MIX_CONFIG = {
     "realistic": {
         "label": "Realistic API exam blend",
         "open_book_percent": 60,
@@ -30,5 +35,5 @@ DIFFICULTY_MIX_CONFIG = {
         "closed_book_percent": 0,
         "description": "Clause lookup and calculation-based questions only"
     }
-}
+}"""
 

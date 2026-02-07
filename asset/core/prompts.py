@@ -44,14 +44,15 @@ from langchain.messages import SystemMessage, HumanMessage, AIMessage
     return prompt"""
 
 
-def GenQuestionPrompt(ex_name, sheet_content, knowledge_content, n_question, exam_type):
+def GenQuestionPrompt(ex_name, sheet_content, knowledge_content, n_question):#, exam_type):
 
     sys_message = SystemMessage(
         content=(
         "You are a professional exam preparation question examiner for the American Petroleum Institute (API).\n"
         #f"Your task is to generate {n_question} unique questions based on the provided information and make options different and shuffle every time.\n\n"
         f"Your task is to generate {n_question} unique questions based on the provided information, ensure the options are unique, and shuffle them each time.\n\n"
-        f"Exam difficulty mix should be as follows: {DIFFICULTY_MIX_CONFIG[exam_type]}.\n\n"
+        #f"Exam difficulty mix should be as follows: {DIFFICULTY_MIX_CONFIG[exam_type]}.\n\n"
+        f"Exam difficulty mix should be as follows: {DIFFICULTY_MIX_CONFIG}.\n\n"
         f"Follow the specified dictionary output format: {out_temp}.Do not add any extra text except the output list of dictionary template.\n\n"
         f"Do not hellociate or add any extra information outside the specified format. and give {n_question} questions\n"
         )
