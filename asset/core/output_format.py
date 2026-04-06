@@ -5,7 +5,7 @@ out_temp = [
             {"option": "string",
              "is_correct": bool}
         ], 
-        "explanation": "string (explanation for the correct answer and Section, API code number, Article number if have there. )"
+        "explanation": "string (explanation for the correct answer and Section, API code number, Article number if have there. Do not give wrong book or referance. heardly give correct referance.)"
     }
 ]
 
